@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Application", "1-Application", "{DC08215A-AEAB-427E-B40B-D77A668D95B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{DF33259D-A083-4243-886C-18DBE3E5E18E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Service", "3-Service", "{A7D11813-0C21-4E75-A8E2-656D5C3A7C9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTG.Credit.Ras.Interview.Application", "BTG.Credit.Ras.Interview.Application\BTG.Credit.Ras.Interview.Application.csproj", "{1C5EF286-9B90-4A8F-B3D1-DEABEE5686F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8B7CB229-E9C0-492B-9AC7-781F26836DB7}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTG.Credit.Ras.Interview.Service", "BTG.Credit.Ras.Interview.Service\BTG.Credit.Ras.Interview.Service.csproj", "{049C1BC0-3F42-449B-A61E-35C2AC819EB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTG.Credit.Ras.Interview.Domain", "BTG.Credit.Ras.Interview.Domain\BTG.Credit.Ras.Interview.Domain.csproj", "{31D1C727-0C99-4D41-827E-F225D524BFBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Data", "4-Data", "{FE73BA72-8FCA-48C1-BF15-C4E68675D735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTG.Credit.Ras.Interview.Data", "BTG.Credit.Ras.Interview.Data\BTG.Credit.Ras.Interview.Data.csproj", "{974C1A30-8FEB-49C5-8B7E-4CB67C0C55EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C5EF286-9B90-4A8F-B3D1-DEABEE5686F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5EF286-9B90-4A8F-B3D1-DEABEE5686F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5EF286-9B90-4A8F-B3D1-DEABEE5686F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5EF286-9B90-4A8F-B3D1-DEABEE5686F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{049C1BC0-3F42-449B-A61E-35C2AC819EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049C1BC0-3F42-449B-A61E-35C2AC819EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049C1BC0-3F42-449B-A61E-35C2AC819EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049C1BC0-3F42-449B-A61E-35C2AC819EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D1C727-0C99-4D41-827E-F225D524BFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D1C727-0C99-4D41-827E-F225D524BFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D1C727-0C99-4D41-827E-F225D524BFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D1C727-0C99-4D41-827E-F225D524BFBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{974C1A30-8FEB-49C5-8B7E-4CB67C0C55EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974C1A30-8FEB-49C5-8B7E-4CB67C0C55EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974C1A30-8FEB-49C5-8B7E-4CB67C0C55EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974C1A30-8FEB-49C5-8B7E-4CB67C0C55EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C5EF286-9B90-4A8F-B3D1-DEABEE5686F5} = {DC08215A-AEAB-427E-B40B-D77A668D95B3}
+		{049C1BC0-3F42-449B-A61E-35C2AC819EB0} = {A7D11813-0C21-4E75-A8E2-656D5C3A7C9F}
+		{31D1C727-0C99-4D41-827E-F225D524BFBB} = {DF33259D-A083-4243-886C-18DBE3E5E18E}
+		{974C1A30-8FEB-49C5-8B7E-4CB67C0C55EA} = {FE73BA72-8FCA-48C1-BF15-C4E68675D735}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EAA3A2D-C40E-4A6E-AB6E-AF9B45D36E44}
+	EndGlobalSection
+EndGlobal
